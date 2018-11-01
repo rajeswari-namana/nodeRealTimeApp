@@ -1,2 +1,6 @@
 # nodeRealTimeApp
-learning node through building app from scratch
+Learning node through building app from scratch.
+
+checking for node version, type in cmd:
+node -v
+
