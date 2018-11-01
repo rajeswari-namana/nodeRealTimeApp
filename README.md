@@ -2,9 +2,11 @@
 Learning node through building app from scratch.
 
 checking for node version, type in cmd:   
-#### node -v
+### node -v
 
-node enter: opens node cmd prompt
+opens node cmd prompt:
+
+### node
 
 both node and chrome browser run on chromes v8 javascript engine - so u can type same command in node cmd prompt and browser console, console.log("something") which is compiled to machine code and executed. v8 engine is very fast in compiling to machine cose and that makes node very fast.
 
