@@ -9,5 +9,13 @@ fs.appendFile("greeting.js","welcome",function(err){
 })
 
 const os=require("os")
-var username=os.userInfo()
-console.log(username);
+//fetching logged in user name
+var user=os.userInfo()
+console.log(user);
+// now appending username to file
+
+fs.appendFile("greeting.js"," "+user.username,function(err){
+  if(err){
+    console.log("user not logged")
+  }
+})
