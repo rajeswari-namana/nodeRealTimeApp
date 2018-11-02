@@ -7,3 +7,7 @@ fs.appendFile("greeting.js","welcome",function(err){
     console.console.log("error occured");
   }
 })
+
+const os=require("os")
+var username=os.userInfo()
+console.log(username);
