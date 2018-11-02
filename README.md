@@ -20,6 +20,30 @@ inside browser we also have access to document which stores reference to dom whi
 
 inside node we have process. to exit it process.exit(0) which means exiting with 0 errors.
 
+node is javascript run time that uses v8 engine. what is v8 engine? open source js engine written in C++ that takes js code and compiles to machine code. it is used inside node js and inside the chrome browser.
+
+run app: node filename.js
+
+---------------
+modules: units of functionality.
+
+using require:
+
+1) loading modules that come bundled with node.js eg: http, filesystem fs modules (these are built in no need to install in the terminal)
+
+2) loading 3rd party libraries. eg: express, sequelize etc which help us to write less code.
+
+3) to load our own files, since we break up our huge apps into pieces.
+
+---------------
+
+list of all built in node modules:
+https://nodejs.org/api/index.html
+
+
+
+
+
 
 
 
